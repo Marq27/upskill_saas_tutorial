@@ -14,8 +14,10 @@
  *= require_self
  */
  
-@import 'bootstrap-sprockets';
-@import 'bootstrap';
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 // Typography styles
 h1, h2, h3 {
@@ -40,7 +42,7 @@ h1, h2, h3 {
   color: black;
   font-size: 20px;
   &:hover {
-    color: gray;
+    color: black;
     opacity: 0.75;
   }
 }
