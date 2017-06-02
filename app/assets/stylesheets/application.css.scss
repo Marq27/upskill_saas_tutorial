@@ -51,7 +51,18 @@ h1, h2, h3 {
     opacity: 0.75;
   }
 }
-  
+
+.navbar-default .navbar-toggle .icon-bar, {
+  background-color: black;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid black;
+  &:hover, &:focus {
+    background-color: #24C6DC;
+  }
+}
+
 // Homepage styles
 .home-callout {
   color: black;
