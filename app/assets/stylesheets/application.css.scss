@@ -34,7 +34,7 @@ h1, h2, h3 {
 
 // Nav styles
 .navbar {
-  border: none;
+   border-bottom:1px solid black;
 }
 
 .navbar-brand {
@@ -62,6 +62,7 @@ h1, h2, h3 {
     background-color: #24C6DC;
   }
 }
+
 
 // Homepage styles
 .home-callout {
